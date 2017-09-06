@@ -448,7 +448,7 @@
 
   $(function(){
       $("#quote").typed({
-        strings: ["Visual Designer","UX/UI Designer", "Front-End Developer"],
+        strings: ["Visual Designer","UI Designer", "Junior Front-End Developer"],
         typeSpeed: 100
       });
   });

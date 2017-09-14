@@ -82,10 +82,10 @@ nav a {
 }
 
 /*----------------------
-About
+Hero
 -----------------------*/
 
-#about {
+#hero {
     height: 60vh;
 }
 
@@ -228,7 +228,7 @@ Media Queries
 ----------------------*/
 
 @media (max-width: 471px) {
-  #about {
+  #hero {
     min-height: 80vh;
   }
   #portfolio h2 {

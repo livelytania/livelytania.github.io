@@ -122,6 +122,12 @@ Hero
 }
 
 /*----------------------
+About
+-----------------------*/
+
+
+
+/*----------------------
 Portfolio
 -----------------------*/
 
@@ -136,6 +142,34 @@ Portfolio
 
 #portfolio img {
     margin-bottom: 32px;
+}
+
+/*----------------------
+Skills
+-----------------------*/
+
+.experience, .languages, .frameworks {
+    width: 320px;
+    height: 320px;
+}
+
+.skill-title {
+    background-color: #9400D3;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 14px 24px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.skill-title:hover, .skill-title:focus {
+    background: #000;
+}
+
+li {
+    text-decoration: none;
 }
 
 /*----------------------

@@ -161,7 +161,7 @@ Skills
     letter-spacing: 1px;
     padding: 14px 24px;
     text-transform: uppercase;
-    width: 100%;
+    max-width: 378px;
 }
 
 .skill-title:hover, .skill-title:focus {
@@ -268,7 +268,7 @@ footer p {
 /* Made in Manchester */
 
 .bee {
-    height: 28px;
+    height: 24px;
 }
 
 .madein {

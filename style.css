@@ -259,16 +259,28 @@ footer p {
     outline: none;
 }
 
-.social-link:hover, .social-link:focus {
+.social-link:hover, .social-link:focus, .social-link:active {
     color: #fff;
     background-color: #9400D3;
     text-decoration: none;
 }
 
-.social-link:active {
-    color: #fff;
-    background-color: #440360;
-    text-decoration: none;
+/* Made in Manchester */
+
+.bee {
+    height: 28px;
+}
+
+.madein {
+    color: #212121;
+}
+
+.madein:focus, .madein:active:focus {
+    outline: none;
+}
+
+.madein:hover, .madein:focus, .madein:active {
+    color: #9400D3;
 }
 
 /*--------------------

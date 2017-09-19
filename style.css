@@ -150,19 +150,21 @@ Portfolio
 }
 
 .portfolio-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 20px;
-    color: #212121;
-    opacity: 0;
-    transition: .5s ease;
     background-color: #fff;
+    border-top: none;
+    bottom: 0;
+    color: #212121;
+    left: 0;
+    opacity: 0;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .5s ease;
     }
 
 .portfolio-item:hover .portfolio-overlay {
+    border-top: solid 4px #9400D3;
     opacity: 0.96;
 }
 

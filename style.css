@@ -140,6 +140,29 @@ Portfolio
     margin: 0 auto 79px auto;
 }
 
+/* portfolio filters */
+
+.toggle {
+    color: #212121;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.active {
+    color: #9400D3;
+}
+
+.toggle:focus, .toggle:active:focus {
+    outline: none;
+}
+
+.toggle:hover, .toggle:focus {
+    cursor: pointer;
+}
+
+/* portfolio items & overlays */
+
 .portfolio-image {
     margin-bottom: 32px;
 }
@@ -151,7 +174,7 @@ Portfolio
 
 .portfolio-overlay {
     background-color: #fff;
-    border-top: none;
+    border-top: solid 4px #fff;
     bottom: 0;
     color: #212121;
     left: 0;

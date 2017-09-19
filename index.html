@@ -18,12 +18,9 @@
         <!-- Custom CSS -->
         <link type="text/css" rel="stylesheet" href="style.css">
         
-        <!-- animate.css -->
-        <link rel="stylesheet" href="animate.min.css">
-        
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
         
     </head>
     
@@ -341,6 +338,7 @@
             </div>
         </div>
     </div>
+        
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -351,11 +349,24 @@
         <script type="text/javascript">
             
             $( document ).ready(function() {
+                
+                // bootstrap scrollspy
+                
+                $('body').scrollspy({target:'#navbar'});
+                
+                // typed hero text
+                
+                $(function(){
+                    $("#quote").typed({
+                        strings: ["Visual Designer","UI Designer", "Front-End Developer"],
+                        typeSpeed: 100
+                    });
+                });
+                
+                // portfolio filter
             
                 $(".design").hide();
                 $("#development").addClass("active");
-
-                // toggle portfolio items
 
                 $("#all").click(function() {
                     $("#all").addClass("active")

@@ -140,8 +140,36 @@ Portfolio
     margin: 0 auto 79px auto;
 }
 
-#portfolio img {
+.portfolio-image {
     margin-bottom: 32px;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: #212121;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fff;
+    }
+
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 0.96;
+}
+
+.portfolio-overlay-title {
+    color: #9400D3;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 /*----------------------
@@ -192,6 +220,11 @@ Contact form
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 14px 24px;
+}
+
+.btn-sm {
+    font-size: 12px;
+    padding: 10px 16px;
 }
  
 .btn:focus, .btn:active:focus, .btn.active:focus {

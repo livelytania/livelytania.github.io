@@ -201,7 +201,7 @@ Portfolio
 Skills
 -----------------------*/
 
-.experience, .languages, .other {
+.skill-column {
     width: 320px;
     height: 320px;
 }

@@ -35,7 +35,7 @@ h2 {
 Layout
 -----------------------*/
 
-.width-1000 {
+section .row {
     max-width: 1000px;
 }
 

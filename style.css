@@ -31,6 +31,14 @@ h2 {
     line-height: 3;
 }
 
+h3 {
+    color: #9400D3;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 2em;
+    text-transform: uppercase;
+}
+
 /*----------------------
 Layout
 -----------------------*/
@@ -368,8 +376,10 @@ Media Queries
 Portfolio Page
 ----------------------*/
 
-.description-title {
-    color: #9400D3;
-    font-weight: bold;
-    text-transform: uppercase;
+.project {
+    max-width: 1200px;
+}
+
+.project-images img {
+    margin-bottom: 3em;
 }

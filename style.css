@@ -381,6 +381,12 @@ Media Queries
     }
 }
 
+/*Remove horizontal scroll bar on small devices*/
+@media all and (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
+
 /*--------------------
 Portfolio Page
 ----------------------*/

@@ -214,6 +214,10 @@ Portfolio
     text-transform: uppercase;
 }
 
+.project-images img {
+    padding-bottom: 40px;
+}
+
 /*----------------------
 Skills
 -----------------------*/
